@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application for IT Recruitment</title>
+</head>
+<style>
+    body {
+        background-image: url(https://cutewallpaper.org/21/basic-backgrounds/90-Simple-Backgrounds-Edit-and-Download-Visual-Learning-.jpg);
+    }
+
+    .footer {
+        position: fixed;
+        text-align: center;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    table input[type="submit"] {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+    <h2 ALIGN="CENTER">Application for IT Recruitment</h2>
+    <div align="center">
+        <form action="fileupload.php" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <table align="center" cellpadding="5">
+                    <tr>
+                        <td>
+                            <label for="ename"> <b>Employee Name:</b> </label>
+                            <input id="ename" type="text" name="ename" placeholder="Employee Name" required>
+                        </td>
+
+                        <td>
+                         <label for="dep"><b>Enter Job Titles:</b></label>
+                            <select name="dep" id="dep" required>
+                                <option>
+                                    --Select Job Titles--
+                                </option>
+                                <option value="Product Manager">Product Manager</option>
+                                <option value="Sales and marketing">Sales and marketing</option>
+                                <option value="IT services">IT services</option>
+                                <option value="Admin department">Admin department</option>
+                                <option value="Software Architect"> Software Architect</option>
+                                <option value="Intern Software Developer">Intern Software Developer</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <p></p>
+                    <tr>
+
+                        <td>
+                            <label for="ur"><b>Upload resume: </b></label>
+                            <input id="ur" type="file" name="ur" required>
+                        </td>
+
+                        <td>
+                            <label for="up"><b>Upload photograph:</b></label>
+                            <input id="up" type="file" name="up" required>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="ds"><b>Digital Sign:</b></label>
+                            <input id="ds" type="file" name="ds" required>
+                        </td>
+                        <td>
+                            <label for="pn"><b>Phone Number: </b></label>
+                            <input id="pn" type="text" name="pn" placeholder="Enter Phone Number" required>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email"><b>Email: </b></label>
+                            <input id="email" type="email" name="email" placeholder="Enter Email" required>
+                        </td>
+                        <td>
+                            <label for="date"><b>Date of birth: </b></label>
+                            <input id="date" type="date" name="date" required>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="gd"><b>Graduation details: </b></label>
+                            <select name="gd" id="gd" required>
+                                <option>
+                                    --Select Graduation Type--
+                                </option>
+                                <option value="UG">UG</option>
+                                <option value="PG">PG</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="un"><b>Enter University Name: </b></label>
+                            <input id="un" type="text" name="un" placeholder="University Name" required>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <div align="center">
+                            <td colspan="2"><input style="background-color:#00FF00 " type="submit" value="submit" />
+                            </td>
+                        </div>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    <div class="footer">Designed By Edula Vinay Kumar Reddy</div>
+    <br>
+</body>
+
+</html>
